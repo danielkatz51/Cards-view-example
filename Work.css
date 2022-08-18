@@ -1,0 +1,190 @@
+.Work-card-container {
+  width: 90%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 100px;
+}
+.work-cardbox {
+  width: 90%;
+  position: relative;
+  left: 50%;
+  top: 20px;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.work-card {
+  position: relative;
+  flex: 1 1 33.333%;
+  min-width: 280px;
+  max-width: 27.333333%;
+  min-height: 1px;
+  height: 520px;
+  border-radius: 6px;
+  z-index: 1;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.work-card p {
+  font-size: 1.1em;
+  font-weight: 600;
+  height: 150px;
+  width: 95%;
+}
+.work-card img {
+  width: 100%;
+  height: 250px;
+  border-radius: 6px;
+}
+.mid-card {
+  padding: 20px 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(19, 5, 255, 1) 0%,
+    rgba(0, 0, 255, 1) 4%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  box-shadow: rgba(18, 5, 255, 0.658) 0px 7px 29px 0px;
+}
+.mid-card p {
+  color: white;
+}
+.mid-card-button {
+  padding: 1em 1.7em;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 40px;
+  color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgba(19, 5, 255, 1) 0%,
+    rgba(0, 0, 255, 1) 4%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  box-shadow: rgba(18, 5, 255, 0.658) 0px 7px 29px 0px;
+}
+.right-bubble {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 151, 5, 1) 0%,
+    rgba(255, 136, 0, 1) 13%,
+    rgba(255, 205, 76, 1) 100%
+  );
+  width: 300px;
+  height: 300px;
+  border-radius: 27% 73% 88% 12% / 85% 40% 60% 15%;
+  position: absolute;
+  top: 100px;
+  transform: rotateY(180deg);
+  z-index: -1;
+  box-shadow: rgb(181, 106, 0) 0px 7px 29px 0px;
+}
+.right-card {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 151, 5, 1) 0%,
+    rgba(255, 136, 0, 1) 13%,
+    rgba(255, 205, 76, 1) 100%
+  );
+  box-shadow: rgb(181, 106, 0) 0px 7px 29px 0px;
+}
+.right-card::before {
+  content: "";
+  background: linear-gradient(
+    90deg,
+    rgba(255, 151, 5, 1) 0%,
+    rgba(255, 136, 0, 1) 13%,
+    rgba(255, 205, 76, 1) 100%
+  );
+  width: 300px;
+  height: 300px;
+  border-radius: 24% 76% 28% 72% / 10% 44% 56% 90%;
+  position: absolute;
+  transform: rotateY(180deg);
+  bottom: -50px;
+  z-index: -1;
+}
+.right-card-button {
+  padding: 1em 1.7em;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 40px;
+  color: rgb(0, 0, 0);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 151, 5, 1) 0%,
+    rgba(255, 136, 0, 1) 13%,
+    rgba(255, 205, 76, 1) 100%
+  );
+  box-shadow: rgb(181, 106, 0) 0px 7px 29px 0px;
+}
+.left-bubble {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(21, 164, 9, 1) 0%,
+    rgba(35, 255, 0, 1) 100%
+  );
+  width: 300px;
+  height: 300px;
+  border-radius: 24% 76% 28% 72% / 10% 44% 56% 90%;
+  position: absolute;
+  right: 50px;
+  bottom: -50px;
+  z-index: -1;
+  box-shadow: rgba(21, 164, 9, 1) 0px 7px 29px 0px;
+}
+.left-card {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(21, 164, 9, 1) 0%,
+    rgba(35, 255, 0, 1) 100%
+  );
+  box-shadow: rgba(21, 164, 9, 1) 0px 7px 29px 0px;
+}
+.left-card::before {
+  content: "";
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(21, 164, 9, 1) 0%,
+    rgba(35, 255, 0, 1) 100%
+  );
+  width: 300px;
+  height: 300px;
+  border-radius: 27% 73% 88% 12% / 85% 40% 60% 15%;
+  position: absolute;
+  right: -50px;
+  z-index: -1;
+}
+.left-card-button {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(21, 164, 9, 1) 0%,
+    rgba(35, 255, 0, 1) 100%
+  );
+  box-shadow: rgba(21, 164, 9, 1) 0px 7px 29px 0px;
+  padding: 1em 1.7em;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 40px;
+  color: rgb(0, 0, 0);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
